@@ -1,0 +1,1 @@
+# sql_quetion_in_hackerrank
