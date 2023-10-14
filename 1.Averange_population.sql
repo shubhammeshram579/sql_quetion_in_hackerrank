@@ -86,3 +86,16 @@ The resulting error between the two calculations is . Since it is equal to the i
 
 select ceil(avg(salary)- avg(replace(salary,"0","")))
 from EMPLOYEES;
+
+
+
+
+/*5 .Query a count of the number of cities in CITY having a Population larger than .
+
+Input Format
+
+The CITY table is described as follows: CITY.jpg*/
+
+select count(District)
+from CITY
+where Population > 100000;
