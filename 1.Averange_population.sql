@@ -99,3 +99,15 @@ The CITY table is described as follows: CITY.jpg*/
 select count(District)
 from CITY
 where Population > 100000;
+
+
+
+/*6 . Query the total population of all cities in CITY where District is California.
+
+Input Format
+
+The CITY table is described as follows: CITY.jpg*/
+
+select sum(population)
+from City 
+where District like "California";
